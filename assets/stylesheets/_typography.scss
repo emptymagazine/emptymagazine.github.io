@@ -24,6 +24,9 @@ aside p {
 .site_title {
     font-size: 60px;
 }
+.site_title span:after {
+    content: " ";
+}
 li {
 	line-height: 30px;
 }
