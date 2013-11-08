@@ -4,20 +4,20 @@ title: Welcome
 ---
 {% for post in site.posts %}
 
-<article class="module one_of_three">
-	<div class="copy node">
-		<figure class="tac">
-			<a class="genric" href="{{ post.url }}">
-				<img class="lazy" src="/assets/loading.gif" data-original="{{ post.featured_image }}" />
-				<noscript><img src="{{ post.featured_image }}" /></noscript>
-				<cite class="cite generic tac">Photo courtesy of: {{ post.featured_image_author }}</cite>
-				<h3 class="post_title">{{ post.title }}</h3>
-			</a>
-		</figure>
-	<div class="clear"></div>
-	</div>
-	<!-- END .node -->
-</article>
-<!-- END .module -->
+				<article class="module one_of_three">
+					<div class="copy node">
+						<figure class="tac">
+							<a class="genric" href="{{ post.url }}">
+								<img class="lazy" src="/assets/loading.gif" data-original="{{ post.featured_image }}" />
+								<noscript><img src="{{ post.featured_image }}" /></noscript>
+								<cite class="cite generic tac">Photo courtesy of: {{ post.featured_image_author }}</cite>
+								<h3 class="post_title">{{ post.title }}</h3>
+							</a>
+						</figure>
+					<div class="clear"></div>
+					</div>
+					<!-- END .node -->
+				</article>
+				<!-- END .module -->
 
 {% endfor %}
