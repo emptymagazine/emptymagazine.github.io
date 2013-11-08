@@ -117,10 +117,10 @@ figure {
   padding: 15px; }
 
 /*Colors*/
-/*Modular*/
 .bg {
   background-color: #3F3F3F; }
 
+/*Modular*/
 .meta {
   font-size: 14px;
   font-weight: bold; }
@@ -145,9 +145,11 @@ html, body, aside.site {
   height: 100%; }
 
 aside.site {
+  float: left;
   width: 5%; }
 
 main.site {
+  float: left;
   width: 95%; }
 
 /*Responsive and Grid*/
