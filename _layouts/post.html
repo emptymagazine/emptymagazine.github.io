@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<style type="text/css">
+.background-size .blog_article{
+  background: url("{{ page.post_background_image }}") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+</style>
+
+<article class="blog_article module" id="post_number_{{ page.post_number }}">
+	<div class="copy node">
+		
+		<figure class="featured_image tac">
+			<img class="lazy" src="/assets/loading.gif" data-original="{{ page.image }}" />
+			<noscript><img src="{{ page.image }}" /></noscript>
+			<cite class="block tac">Photo courtesy of: {{ page.image_author }}</cite>
+		</figure>
+		
+		<section class="meta_wrapper">
+			<h1 class="post_title tac">{{ page.title }}</h1>
+			<p class="meta">{{ page.date | date_to_string }}</p>
+		</section>
+		
+		{{ content }}
+		
+		<figure class="post_author right tac">
+			<img src="{{ page.post_author_image }}" />
+			<cite class="cite generic tac">Written by: {{ page.post_author }}</cite>
+		</figure>
+		
+	<div class="clear"></div>	
+	</div>
+	<!-- END .node -->
+<div class="clear"></div>
+</article>
+<!-- END .module -->

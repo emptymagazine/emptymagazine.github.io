@@ -1,0 +1,2 @@
+emptymagazine.github.io
+======================

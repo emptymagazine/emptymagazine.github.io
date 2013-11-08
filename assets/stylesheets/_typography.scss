@@ -1,0 +1,34 @@
+/*Typography*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+html,
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.main p {
+	font-size: 17px;
+	line-height: 27px;
+	margin-bottom: 30px;
+}
+aside p {
+	font-size: 15px;
+	line-height: 24px;
+}
+.title {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 115px;
+}
+li {
+	line-height: 30px;
+}
+figure {
+    padding: 15px;
+}
