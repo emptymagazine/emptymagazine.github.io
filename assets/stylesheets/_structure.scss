@@ -4,8 +4,10 @@ html, body, aside.site {
 	height: 100%;
 }
 aside.site {
-	float: left;
-	width: 5%;
+    float: left;
+    max-width: 90px;
+    min-width: 70px;
+    width: 5%;
 }
 main.site {
 	float: left;

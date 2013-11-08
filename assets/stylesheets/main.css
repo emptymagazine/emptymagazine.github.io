@@ -108,7 +108,8 @@ aside p {
   line-height: 24px; }
 
 .site_title {
-  font-size: 60px; }
+  font-size: 60px;
+  max-width: 60px; }
 
 .site_title span:after {
   content: " "; }
@@ -122,6 +123,10 @@ figure {
 /*Colors*/
 .bg {
   background-color: #3F3F3F; }
+
+aside.site {
+  background-color: #3F3F3F;
+  color: #FFFFFF; }
 
 /*Modular*/
 .meta {
@@ -149,6 +154,8 @@ html, body, aside.site {
 
 aside.site {
   float: left;
+  max-width: 90px;
+  min-width: 70px;
   width: 5%; }
 
 main.site {
