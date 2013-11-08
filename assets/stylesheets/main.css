@@ -118,7 +118,8 @@ li {
 
 .site_title {
   font-size: 60px;
-  max-width: 60px; }
+  max-width: 60px;
+  text-decoration: none; }
 
 .site_title span:after {
   content: " "; }
@@ -130,6 +131,9 @@ aside.site {
 
 .bg {
   background-color: #3F3F3F; }
+
+.site_title {
+  color: #FFFFFF; }
 
 /*Modular*/
 .copy {
