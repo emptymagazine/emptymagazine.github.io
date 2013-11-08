@@ -35,6 +35,9 @@ li {
     max-width: 60px;
 	text-decoration: none;
 }
+.site_title span {
+	text-decoration: none;
+}
 .site_title span:after {
     content: " ";
 }
