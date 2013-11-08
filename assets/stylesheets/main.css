@@ -107,10 +107,8 @@ aside p {
   font-size: 15px;
   line-height: 24px; }
 
-.title {
-  font-size: 30px;
-  margin-left: 20px;
-  margin-top: 115px; }
+.site_title {
+  font-size: 60px; }
 
 li {
   line-height: 30px; }
