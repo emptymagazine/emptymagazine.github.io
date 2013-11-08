@@ -116,8 +116,12 @@ li {
   line-height: 27px;
   margin-bottom: 30px; }
 
+.site_title_wrap {
+  margin: 0 auto;
+  width: 20px; }
+
 .site_title {
-  font-size: 60px;
+  font-size: 30px;
   max-width: 60px;
   text-decoration: none; }
 
