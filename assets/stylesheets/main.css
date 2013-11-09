@@ -148,7 +148,7 @@ aside.site {
   font-weight: bold; }
 
 .module {
-  margin: 0 0 15px; }
+  /*margin: 0 0 15px;*/ }
 
 .node {
   margin-bottom: 15px;
@@ -156,6 +156,7 @@ aside.site {
 
 .wrapper {
   margin: 0 auto;
+  padding: 1.5%;
   width: 100%; }
 
 /*Structure*/
@@ -181,9 +182,11 @@ main.site {
   width: 50%; }
 
 .one_of_three {
+  border: 1px solid #3F3F3F;
   float: left;
-  padding: 25px;
-  width: 33.3333%; }
+  margin: 1.5%;
+  padding: 1.5%;
+  width: 30%; }
 
 .one_of_four {
   float: left;
