@@ -4,10 +4,14 @@ html, body, aside.site {
 	height: 100%;
 }
 aside.site {
-    position: absolute;
+    position: fixed;
     width: 60px;
 }
 main.site {
     padding: 0 60px;
     width: 100%;
+}
+.post_author_image {
+	border-radius: 50%;
+	width: 100px;
 }
