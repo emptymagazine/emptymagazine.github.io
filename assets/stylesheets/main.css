@@ -161,6 +161,7 @@ html, body, aside.site {
   height: 100%; }
 
 aside.site {
+  padding-top: 3%;
   position: fixed;
   width: 60px; }
 
