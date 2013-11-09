@@ -180,51 +180,74 @@ main.site {
 
 /*Responsive and Grid*/
 .one_of_one {
-  padding: 25px;
+  padding: 1.5%;
   width: 100%; }
 
 .one_of_two {
   float: left;
-  padding: 25px;
+  padding: 1.5%;
   width: 50%; }
 
 .one_of_three {
-  border: 1px solid #3F3F3F;
   float: left;
-  margin: 1.5%;
   padding: 1.5%;
-  width: 30%; }
+  width: 33%; }
 
 .one_of_four {
   float: left;
-  padding: 25px;
+  padding: 1.5%;
   width: 25%; }
 
 .one_of_five {
   float: left;
-  padding: 25px;
+  padding: 1.5%;
   width: 20%; }
+
+.two_of_three {
+  float: left;
+  padding: 1.5%;
+  width: 66.666%; }
+
+.two_of_five {
+  float: left;
+  padding: 1.5%;
+  width: 40%; }
+
+.three_of_four {
+  float: left;
+  padding: 1.5%;
+  width: 75%%; }
+
+.three_of_five {
+  float: left;
+  padding: 1.5%;
+  width: 60%; }
+
+.four_of_five {
+  float: left;
+  padding: 1.5%;
+  width: 80%; }
 
 /*Media Queries*/
 @media all and (min-width: 0px) and (max-width: 768px) {
   .one_of_two.responsive {
     float: left;
-    padding: 25px;
+    padding: 1.5%;
     width: 100%; }
 
   .one_of_three.responsive {
     float: left;
-    padding: 25px;
+    padding: 1.5%;
     width: 100%; }
 
   .one_of_four.responsive {
     float: left;
-    padding: 25px;
+    padding: 1.5%;
     width: 100%; }
 
   .one_of_five.responsive {
     float: left;
-    padding: 25px;
+    padding: 1.5%;
     width: 100%; } }
 /*Helpers*/
 .absolute {
