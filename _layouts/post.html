@@ -3,11 +3,21 @@ layout: default
 ---
 <style type="text/css">
 html.backgroundsize:after{
-  background: url("{{ page.featured_image_low_res }}") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    content: "";
+    background: url("{{ page.featured_image_low_res }}") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position:absolute;
+    opacity: 0.15;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+
 }
 </style>
 
