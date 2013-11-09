@@ -163,14 +163,12 @@ html, body, aside.site {
   height: 100%; }
 
 aside.site {
-  float: left;
-  max-width: 90px;
-  min-width: 70px;
-  width: 5%; }
+  position: absolute;
+  width: 60px; }
 
 main.site {
-  float: left;
-  width: 95%; }
+  padding: 0 60px;
+  width: 100%; }
 
 /*Responsive and Grid*/
 .one_of_one {
