@@ -159,16 +159,20 @@ aside.site {
   box-shadow: 1px 1px 0 rgba(158, 205, 215, 0.1) inset, 0 0 20px rgba(0, 0, 0, 0.3); }
 
 .blog_article .node {
-  background: #FFFFFF; }
+  background: #FFFFFF;
+  box-shadow: none; }
 
 .blog_article .node:hover {
-  background: #FFFFFF; }
+  background: #FFFFFF;
+  box-shadow: none; }
 
 html.rgba .blog_article .node {
-  background: rgba(254, 254, 254, 0.75); }
+  background: rgba(254, 254, 254, 0.75);
+  box-shadow: none; }
 
 html.rgba .blog_article .node:hover {
-  background: rgba(254, 254, 254, 0.75); }
+  background: rgba(254, 254, 254, 0.75);
+  box-shadow: none; }
 
 /*Wrapper*/
 .wrapper {
