@@ -20,15 +20,19 @@
 }
 .blog_article .node {
 	background: #FFFFFF;
+	box-shadow: none;
 }
 .blog_article .node:hover {
 	background: #FFFFFF;
+	box-shadow: none;
 }
 html.rgba .blog_article .node {
 	background: rgba(254, 254, 254, 0.75);
+	box-shadow: none;
 }
 html.rgba .blog_article .node:hover {
 	background: rgba(254, 254, 254, 0.75);
+	box-shadow: none;
 }
 /*Wrapper*/
 .wrapper {
