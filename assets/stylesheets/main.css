@@ -134,7 +134,6 @@ li {
 /*Colors*/
 aside.site {
   background-color: #EFEFEF;
-  box-shadow: 1px 1px 0 rgba(158, 205, 215, 0.1) inset, 0 0 4px rgba(0, 0, 0, 0.3);
   color: #CDCDCD; }
 
 .bg {
@@ -150,8 +149,7 @@ aside.site {
 
 .node {
   background-color: #FEFEFE;
-  border: 1px solid #EFEFEF;
-  box-shadow: 1px 1px 0 rgba(158, 205, 215, 0.1) inset, 0 0 6px rgba(0, 0, 0, 0.3); }
+  border: 1px solid #EFEFEF; }
 
 .node:hover {
   background-color: #FFFFFF;
