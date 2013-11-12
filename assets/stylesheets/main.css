@@ -147,15 +147,30 @@ aside.site {
   font-size: 14px;
   font-weight: bold; }
 
+/*Module*/
+/*Node*/
 .node {
-  background-color: #FEFEFE;
+  background: #FEFEFE;
   border: 1px solid #EFEFEF; }
 
 .node:hover {
-  background-color: #FFFFFF;
+  background: #FFFFFF;
   border: 1px solid #EFEFEF;
   box-shadow: 1px 1px 0 rgba(158, 205, 215, 0.1) inset, 0 0 20px rgba(0, 0, 0, 0.3); }
 
+.blog_article .node {
+  background: #FFFFFF; }
+
+.blog_article .node:hover {
+  background: #FFFFFF; }
+
+html.rgba .blog_article .node {
+  background: rgba(254, 254, 254, 0.75); }
+
+html.rgba .blog_article .node:hover {
+  background: rgba(254, 254, 254, 0.75); }
+
+/*Wrapper*/
 .wrapper {
   margin: 0 auto;
   padding: 1.5%;
