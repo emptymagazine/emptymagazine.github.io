@@ -22,6 +22,14 @@
     border: 1px solid #EFEFEF;
 	box-shadow: 1px 1px 0 rgba(158, 205, 215, 0.1) inset, 0 0 20px rgba(0, 0, 0, 0.3);
 }
+html.rgba .node {
+	background: rgba(254, 254, 254, 0.75);
+	box-shadow: none;
+}
+html.rgba .node:hover {
+	background: rgba(254, 254, 254, 0.75);
+	box-shadow: none;
+}
 .blog_article .node {
 	background: #FFFFFF;
 	box-shadow: none;
