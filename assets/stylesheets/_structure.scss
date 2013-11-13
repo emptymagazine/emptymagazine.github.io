@@ -4,6 +4,8 @@ html, body, aside.site {
 	height: 100%;
 }
 aside.site {
+    background-color: #EFEFEF;
+	color: #CDCDCD;
     padding-top: 3%;
     position: fixed;
     width: 60px;
@@ -11,6 +13,16 @@ aside.site {
 main.site {
     padding-left: 60px;
     width: 100%;
+}
+figure {
+    padding: 15px;
+}
+cite {
+    padding: 15px 0;
+}
+cite.site {
+    border-bottom: 1px solid #EFEFEF;
+    margin-bottom: 15px;
 }
 .post_author_image {
 	border-radius: 50%;

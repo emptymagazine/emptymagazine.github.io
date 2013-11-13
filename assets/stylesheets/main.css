@@ -93,9 +93,6 @@ aside p {
   font-size: 15px;
   line-height: 24px; }
 
-figure {
-  padding: 15px; }
-
 h1,
 h2,
 h3,
@@ -124,6 +121,7 @@ li {
   width: 20px; }
 
 .site_title {
+  color: #CDCDCD;
   font-size: 30px;
   max-width: 60px;
   text-decoration: none; }
@@ -143,6 +141,9 @@ aside.site {
   color: #CDCDCD; }
 
 /*Modular*/
+.bg {
+  background-color: #3F3F3F; }
+
 .meta {
   font-size: 14px;
   font-weight: bold; }
@@ -185,6 +186,8 @@ html, body, aside.site {
   height: 100%; }
 
 aside.site {
+  background-color: #EFEFEF;
+  color: #CDCDCD;
   padding-top: 3%;
   position: fixed;
   width: 60px; }
@@ -192,6 +195,16 @@ aside.site {
 main.site {
   padding-left: 60px;
   width: 100%; }
+
+figure {
+  padding: 15px; }
+
+cite {
+  padding: 15px 0; }
+
+cite.site {
+  border-bottom: 1px solid #EFEFEF;
+  margin-bottom: 15px; }
 
 .post_author_image {
   border-radius: 50%;
