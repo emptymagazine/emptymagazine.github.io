@@ -7,12 +7,12 @@ title: Welcome
 				<article class="module one_of_four responsive">
 					<div class="node transition">
 						<figure class="site tac">
-							<a class="block" href="{{ post.url }}" style="color:{{ post_color }};">
+							<a class="block" href="{{ post.url }}" style="color:{{ post.post_color }};">
 								<img class="lazy" src="{{ post.featured_image_low_res }}" data-original="{{ post.featured_image }}" />
 								<noscript><img src="{{ post.featured_image }}" /></noscript>
 							</a>
 								<cite class="block site tac">Photo by: {{ post.featured_image_author }}</cite>
-							<a class="block" href="{{ post.url }}" style="color:{{ post_color }};">
+							<a class="block" href="{{ post.url }}" style="color:{{ post.post_color }};">
 								<h3 class="post_title">{{ post.title }}</h3>
 							</a>
 						</figure>
