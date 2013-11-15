@@ -5,8 +5,10 @@
 				<a class="block" href="{{ post.url }}">
 					<img class="lazy" src="{{ post.featured_image_low_res }}" data-original="{{ post.featured_image }}" />
 					<noscript><img src="{{ post.featured_image }}" /></noscript>
+					<cite class="block site tac">Photo by: {{ post.featured_image_author }}</cite>
 				</a>
-					<cite class="block site tac" style="border-bottom: 1.5px solid {{ post.post_color }};">Photo by: {{ post.featured_image_author }}</cite>
+					<p class="block site tac" style="border-bottom: 1.5px solid {{ post.post_color }};">{{ post.categories | join: " &middot; " }}</p>
+					
 				<a class="block" href="{{ post.url }}" style="color:{{ post.post_color }};">
 					<h3 class="post_title">{{ post.title }}</h3>
 				</a>
