@@ -7,11 +7,10 @@
     font-size: 14px;
     font-weight: bold;
 }
-/*Module*/
 .module {
-    
+    margin-bottom: 6%;
 }
-/*Node*/
+
 .node {
 	background: #FEFEFE;
     border: 1px solid #EFEFEF;
@@ -38,7 +37,6 @@ html.rgba .blog_article .node:hover {
 	background: rgba(254, 254, 254, 0.75);
 	box-shadow: none;
 }
-/*Wrapper*/
 .wrapper {
     margin: 0 auto;
     padding: 1.5%;
