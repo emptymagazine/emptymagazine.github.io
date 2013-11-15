@@ -41,7 +41,10 @@ li {
     content: " ";
 }
 .post_title {
-	text-transform: uppercase;
+    margin: 0 auto;
+    padding-top: 15px;
+    text-transform: uppercase;
+    width: 60%;
 }
 .catagories {
     padding: 15px 0;
