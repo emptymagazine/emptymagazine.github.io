@@ -7,7 +7,7 @@
 					<noscript><img src="{{ post.featured_image }}" /></noscript>
 					<cite class="block site tac">Photo by: {{ post.featured_image_author }}</cite>
 				</a>
-					<p class="block site tac" style="border-bottom: 1.5px solid {{ post.post_color }};">{{ post.categories | join: " &middot; " }}</p>
+					<p class="block catagories site tac" style="border-bottom: 1.5px solid {{ post.post_color }};">{{ post.categories | join: " &middot; " }}</p>
 					
 				<a class="block" href="{{ post.url }}" style="color:{{ post.post_color }};">
 					<h3 class="post_title">{{ post.title }}</h3>
