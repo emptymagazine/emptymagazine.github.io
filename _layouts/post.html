@@ -25,11 +25,13 @@ html.backgroundsize:after {
 <article class="blog_article module" id="post_number_{{ page.post_number }}">
 	<div class="node">
 		
-		<figure class="featured_image tac">
-			<img class="lazy" src="{{ page.featured_image_low_res }}" data-original="{{ page.featured_image }}" />
-			<noscript><img src="{{ page.image }}" /></noscript>
-			<cite class="block tac">Photo by: {{ page.featured_image_author }}</cite>
-		</figure>
+		<div class="one_of_three responsive">
+			<figure class="featured_image tac">
+				<img class="lazy" src="{{ page.featured_image_low_res }}" data-original="{{ page.featured_image }}" />
+				<noscript><img src="{{ page.image }}" /></noscript>
+				<cite class="block tac">Photo by: {{ page.featured_image_author }}</cite>
+			</figure>
+		</div>
 		
 		<section class="meta_wrapper">
 			<h1 class="post_title tac">{{ page.title }}</h1>
