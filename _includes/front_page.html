@@ -1,4 +1,4 @@
-<div class="one_of_three responsive">
+<div class="{% if page.post_in_a_row == "1" %}one_of_one{% endif %}{% if page.post_in_a_row == "2" %}one_of_two{% endif %}{% if page.post_in_a_row == "3" %}one_of_three{% endif %} {% if page.post_in_a_row == "4" %}one_of_four{% endif %}{% if page.post_in_a_row == "5" %}one_of_five{% endif %} responsive">
 	<article class="module">
 		<div class="node transition">
 			<figure class="site tac">
@@ -20,3 +20,18 @@
 	</article>
 	<!-- END .module -->
 </div><!-- END .one_of_four -->
+{% if page.post_in_a_row == "1" %}
+<div class="clear"></div>
+{% endif %}
+{% if page.post_in_a_row == "2" %}
+{% cycle '', '<div class="clear_two"></div>' %}
+{% endif %}
+{% if page.post_in_a_row == "3" %}
+{% cycle '', '', '<div class="clear_three"></div>' %}
+{% endif %} 
+{% if page.post_in_a_row == "4" %}
+{% cycle '', '', '', '<div class="clear_four"></div>' %}
+{% endif %}
+{% if page.post_in_a_row == "5" %}
+{% cycle '', '', '', '', '<div class="clear_five"></div>' %}
+{% endif %}
