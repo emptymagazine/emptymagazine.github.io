@@ -1,56 +1,22 @@
-{% assign post_in_a_row = "3" %}
-
-{% if post_in_a_row == "1" %}
-<section class="clear post_in_a_row">
-{% endif %}
-{% if post_in_a_row == "2" %}
-{% cycle '<section class="clear post_in_a_row">', '' %}
-{% endif %}
-{% if post_in_a_row == "3" %}
-{% cycle '<section class="clear post_in_a_row">', '', '' %}
-{% endif %} 
-{% if post_in_a_row == "4" %}
-{% cycle '<section class="clear post_in_a_row">', '', '', '' %}
-{% endif %}
-{% if post_in_a_row == "5" %}
-{% cycle '<section class="clear post_in_a_row">', '', '', '', '' %}
-{% endif %}
-
-	<div class="{% if post_in_a_row == "1" %}one_of_one{% endif %}{% if post_in_a_row == "2" %}one_of_two{% endif %}{% if post_in_a_row == "3" %}one_of_three{% endif %}{% if post_in_a_row == "4" %}one_of_four{% endif %}{% if post_in_a_row == "5" %}one_of_five{% endif %} responsive">
-		<article class="module">
-			<div class="node transition">
-				<figure class="site tac">
-					<a class="block" href="{{ post.url }}">
-						<img class="lazy" src="{{ post.featured_image_low_res }}" data-original="{{ post.featured_image }}" />
-						<noscript><img src="{{ post.featured_image }}" /></noscript>
-					</a>
+{% cycle '<section class="row_of_post">', '', '' %}	
+	<article class="module one_of_three responsive">
+		<div class="node transition">
+			<figure class="site tac">
+				<a class="block" href="{{ post.url }}">
+					<img class="lazy" src="{{ post.featured_image_low_res }}" data-original="{{ post.featured_image }}" />
+					<noscript><img src="{{ post.featured_image }}" /></noscript>
+				</a>
 				
-						<cite class="block site tac">Photo by: {{ post.featured_image_author }}</cite>
-						<p class="block catagories site tac" style="border-bottom: 1.5px solid {{ post.post_color }};">{{ post.categories | join: " &middot; " }}</p>
-					
-					<a class="block" href="{{ post.url }}" style="color:{{ post.post_color }};">
-						<h3 class="post_title">{{ post.title }}</h3>
-					</a>
-				</figure>
-			<div class="clear"></div>
-			</div>
-			<!-- END .node -->
-		</article>
-		<!-- END .module -->
-	</div>{% if post_in_a_row == "1" %}<!-- END .one_of_one -->{% endif %}{% if post_in_a_row == "2" %}<!-- END .one_of_two -->{% endif %}{% if post_in_a_row == "3" %}<!-- END .one_of_three -->{% endif %}{% if post_in_a_row == "4" %}<!-- END .one_of_four -->{% endif %}{% if post_in_a_row == "5" %}<!-- END .one_of_five -->{% endif %}
-	
-{% if post_in_a_row == "1" %}
-</section><!-- post_in_a_row -->
-{% endif %}
-{% if post_in_a_row == "2" %}
-{% cycle '', '</section><!-- post_in_a_row -->' %}
-{% endif %}
-{% if post_in_a_row == "3" %}
-{% cycle '', '', '</section><!-- post_in_a_row -->' %}
-{% endif %} 
-{% if post_in_a_row == "4" %}
-{% cycle '', '', '', '</section><!-- post_in_a_row -->' %}
-{% endif %}
-{% if post_in_a_row == "5" %}
-{% cycle '', '', '', '', '></section><!-- post_in_a_row -->' %}
-{% endif %}
+					<cite class="block site tac">Photo by: {{ post.featured_image_author }}</cite>
+					<p class="block catagories site tac" style="border-bottom: 1.5px solid {{ post.post_color }};">{{ post.categories | join: " &middot; " }}</p>
+				
+				<a class="block" href="{{ post.url }}" style="color:{{ post.post_color }};">
+					<h3 class="post_title">{{ post.title }}</h3>
+				</a>
+			</figure>
+		<div class="clear"></div>
+		</div>
+		<!-- END .node -->
+	</article>
+	<!-- END .module .one_of_three.responsive-->
+{% cycle '', '', '<div class="clear"></div></section><!-- row_of_post -->' %}
